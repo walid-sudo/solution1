@@ -16,7 +16,7 @@ function calculateDemeritPoints(speed) {
   }
 }
 
-// Get the speed as input (e.g., 80)
+// Get the speed as input 
 const speed = 80;
 
 // Calculate and display demerit points
