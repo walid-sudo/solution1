@@ -1,3 +1,4 @@
+const prompt=require('prompt-sync')();
 // Function to calculate the grade based on student marks
 function calculateGrade(marks) {
   if (marks > 79) {
@@ -22,7 +23,7 @@ function studentGradeGenerator() {
       alert('Invalid input. Please enter a valid number between 0 and 100.');
   } else {
       var grade = calculateGrade(marks);
-      alert('Student Grade: ' + grade);
+      console.log('Student Grade: ' + grade);
   }
 }
 
